@@ -1,0 +1,12 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+<div class="fos_user_user_show">
+    <!-- <p>{{ 'Username'|trans }}: {{ user.username }}</p>-->
+    <p>{{ 'registration.confirmed'|trans({'%username%': user.username}) }}</p>
+    
+    <p>{{ 'Id'|trans }}: {{ user.Id }}</p>
+    <p>{{user.getConfirmationToken()}}</p>
+
+    <p>{{ 'Email'|trans }}: {{ user.email }}</p>
+ 
+</div>

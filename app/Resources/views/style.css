@@ -1,0 +1,6 @@
+.checkbox,.radio{
+    position:relative;
+display:block;
+margin-left: 20px!important;
+margin-bottom:10px;
+}
